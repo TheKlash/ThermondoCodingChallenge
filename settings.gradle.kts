@@ -15,3 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidCodingChallenge"
 include(":app")
+include(":data:network")
+include(":data:storage")
+include(":data:domain")
+include(":features:launches")
