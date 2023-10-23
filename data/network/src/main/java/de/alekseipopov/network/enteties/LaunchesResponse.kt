@@ -25,6 +25,7 @@ data class Launch(
     @SerializedName("name") var name: String? = null,
     @SerializedName("date_utc") var dateUtc: String? = null,
     @SerializedName("date_local") var dateLocal: String? = null,
+    @SerializedName("date_precision") var datePrecision: String? = null,
     @SerializedName("upcoming") var upcoming: Boolean? = null,
     @SerializedName("tbd") var tbd: Boolean? = null,
     @SerializedName("id") var id: String? = null
