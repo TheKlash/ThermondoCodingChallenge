@@ -23,6 +23,7 @@ coroutines-test = "1.6.4"
 org-jetbrains-kotlin-jvm = "1.7.21"
 androidx-appcompat-appcompat = "1.6.1"
 com-google-android-material-material = "1.10.0"
+gson = "2.10.1"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -57,6 +58,7 @@ mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "core-testing" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat-appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "com-google-android-material-material" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 
 [plugins]

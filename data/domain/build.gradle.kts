@@ -38,6 +38,8 @@ dependencies {
     implementation(libs.koin.core)
     implementation(libs.koin.android.test)
 
+    implementation(libs.gson)
+
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
