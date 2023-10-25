@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 data class LaunchEntity(
     @PrimaryKey(autoGenerate = true)
     val launchId: Int,
+    val uuid: String? = null,
     val name: String? = null,
     val bigPatchLink: String? = null,
     val smallPatchLink: String? = null,

@@ -24,6 +24,8 @@ org-jetbrains-kotlin-jvm = "1.7.21"
 androidx-appcompat-appcompat = "1.6.1"
 com-google-android-material-material = "1.10.0"
 gson = "2.10.1"
+paging = "3.3.0-alpha02"
+paging-compose = "3.3.0-alpha02"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -59,6 +61,8 @@ core-testing = { group = "androidx.arch.core", name = "core-testing", version.re
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat-appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "com-google-android-material-material" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+paging = { group = "androidx.paging", name = "paging-runtime", version.ref = "paging"}
+paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "paging-compose" }
 
 
 [plugins]
