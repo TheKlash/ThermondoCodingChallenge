@@ -7,7 +7,7 @@ data class LaunchWithBookmark(
     @Embedded
     val launch: LaunchEntity,
     @Relation (
-        parentColumn = "launchId",
+        parentColumn = "id",
         entityColumn = "launch"
     )
     val bookmark: BookmarkEntity

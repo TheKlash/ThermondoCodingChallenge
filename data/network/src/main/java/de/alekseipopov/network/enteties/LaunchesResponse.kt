@@ -3,7 +3,7 @@ package de.alekseipopov.network.enteties
 import com.google.gson.annotations.SerializedName
 
 data class LaunchesResponse(
-    @SerializedName("docs") var launchesList: ArrayList<Launch> = arrayListOf(),
+    @SerializedName("docs") var docsList: ArrayList<Doc> = arrayListOf(),
     @SerializedName("totalDocs") var totalDocs: Int? = null,
     @SerializedName("limit") var limit: Int? = null,
     @SerializedName("totalPages") var totalPages: Int? = null,
@@ -15,7 +15,7 @@ data class LaunchesResponse(
     @SerializedName("nextPage") var nextPage: Int? = null
 )
 
-data class Launch(
+data class Doc(
     @SerializedName("links") var links: Links? = Links(),
     @SerializedName("rocket") var rocket: Rocket? = Rocket(),
     @SerializedName("success") var success: Boolean? = null,

@@ -55,6 +55,7 @@ room = { group = "androidx.room", name = "room-runtime", version.ref = "room"}
 room-common = { group = "androidx.room", name = "room-common", version.ref = "room"}
 room-annotation-processor = { group = "androidx.room", name = "room-compiler", version.ref = "room"}
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room"}
+room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room"}
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "core-testing" }

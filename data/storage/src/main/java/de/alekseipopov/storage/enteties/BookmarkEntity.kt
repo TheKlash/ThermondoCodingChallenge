@@ -3,7 +3,7 @@ package de.alekseipopov.storage.enteties
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity("bookmark")
 data class BookmarkEntity(
     @PrimaryKey(autoGenerate = true)
     val bookmarkId: Int? = null,

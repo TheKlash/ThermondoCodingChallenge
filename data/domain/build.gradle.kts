@@ -43,6 +43,11 @@ dependencies {
     implementation(libs.paging)
     implementation(libs.paging.compose)
 
+    implementation(libs.room)
+    implementation(libs.room.common)
+    implementation(libs.room.ktx)
+    implementation(libs.room.paging)
+
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
